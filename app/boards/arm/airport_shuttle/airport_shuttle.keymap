@@ -60,8 +60,8 @@
       bindings = <
       &kp GRAVE &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
       &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp MINUS &kp EQUAL &kp SEMI
-      &trans &trans &trans &trans &trans &trans &trans &trans &kp LBKT &kp RBKT &trans &trans
-      &to 0 &trans &trans &trans &trans &trans &trans &trans &trans &mo 3
+      &trans &trans &trans &trans &trans &trans &trans &trans &kp LBKT &kp RBKT &trans &kp BSLH
+      &to 0 &trans &trans &trans &trans &trans &trans &trans &trans &trans
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };

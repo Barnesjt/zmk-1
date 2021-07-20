@@ -71,9 +71,15 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)   							RC(3,7) RC(3,8) RC(3,9) RC(3,10
 		};
 	};
 
+	ext-power {
+		compatible = "zmk,ext-power-generic";
+		label = "EXT_POWER";
+		control-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
+	};
+
 	vbatt {
 		compatible = "zmk,battery-voltage-divider";
-		label = "BATTERY";
+		label = "VOLTAGE_DIVIDER";
 		io-channels = <&adc 2>;
 		output-ohms = <2000000>;
 		full-ohms = <(2000000 + 820000)>;

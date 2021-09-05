@@ -10,7 +10,7 @@
       bindings = <
         &kp ESC   &kp Q    &kp W    &kp E  &kp R  &kp T   &kp Y   &kp U  &kp I    &kp O    &kp P    &kp BKSP
         &lt 1 TAB &kp A    &kp S    &kp D  &kp F  &kp G   &kp H   &kp J  &kp K    &kp L    &kp SQT  &kp RET
-        &kp LSHFT &kp Z    &kp X    &kp C  &kp V  &kp B   &kp N   &kp M  &kp CMMA &kp DOT  &kp UP   &kp &th_bal RSHFT SLASH
+        &kp LSHFT &kp Z    &kp X    &kp C  &kp V  &kp B   &kp N   &kp M  &kp CMMA &kp DOT  &kp UP   &kp &mt RSHFT SLASH
         &kp LCTRL &kp LGUI &kp LALT &trans &trans &lt 2 SPC              &trans   &kp LEFT &kp DOWN &kp RIGHT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
